@@ -1,0 +1,78 @@
+@import url("fonts/fonts.css");
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    color: #2a2a2a;
+    margin: 0 auto;
+
+}
+
+h2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+img {
+    float: left;
+}
+
+a {
+    font-size: small;
+    text-decoration: none;
+    color: #1887d1;
+}
+
+#header {
+    background-color: #68217a;
+    height: 30px;
+    font-family: 'Segoe UI Light', sans-serif;
+    color: #fff;
+}
+
+#content {
+    background-color: #fff;
+    padding: 40px;
+    color: #333;
+}
+
+#left {
+    width: 60%;
+    margin-top:-20px;
+    display: inline-block;
+}
+
+#right {
+    width: 40%;
+    float: right;
+    margin-top:-20px;
+    padding-top: 65px;
+    display: inline-block;
+
+}
+
+#center {
+    margin-top:100px;
+    width: 100%;
+    color:#aaa;
+}
+
+.files{
+    font-size: small;
+}
+
+.detail {
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.title {
+    font-family: 'Segoe UI Light', sans-serif;
+    color: #68217a;
+    font-weight: 100;
+    font-size: 30px;
+}

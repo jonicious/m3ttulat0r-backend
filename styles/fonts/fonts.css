@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('segoeuil.ttf') format('truetype'),
+         url('segoeuil.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('segoeui.ttf') format('truetype'),
+         url('segoeui.woff') format('woff');
+}
