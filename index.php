@@ -6,20 +6,6 @@
  * Time: 09:21
  */
 
-//TODO Berechung zu Brötchen
-//TODO Hälften zusammenrechnen
-//TODO Eingabe für "Hälfen" "Users"
-//TODO Sessions
-// Hälfte = 67.5 g
-//TODO Statistik
-//TODO Liste für Mitbringer
-//TODO Mail am Dienstag Abend an Mitbringer
-//TODO ical file
-//TODO Counter für Bestellungen
-//TODO Counter bis METTWOCH
-//TODO Urlaubsfälle für Liste
-//TODO Validierung
-
 ?>
 
 <head>

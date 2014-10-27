@@ -1,0 +1,90 @@
+"General"
+{
+"ProjectType" = "local"
+"AutoLoadTemplate" = "%s.php;class.%s.php;"
+"IncludeDirs" = ""
+}
+"Configurations"
+{
+    "Local|PHP 5.4"
+    {
+    }
+    "Staging|PHP 5.4"
+    {
+    }
+    "Production|PHP 5.4"
+    {
+    }
+}
+"Files"
+{
+    ".gitignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "process.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "README.md"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\desktop.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\fonts"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\fonts\\fonts.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\fonts\\segoeui.ttf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\fonts\\segoeui.woff"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\fonts\\segoeuil.ttf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\fonts\\segoeuil.woff"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\phone.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\tablet.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\torrent.png"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+}
