@@ -26,6 +26,14 @@
     {
     "ProjRelPath" = "T"
     }
+    "modules"
+    {
+    "ProjRelPath" = "T"
+    }
+    "modules\\inc_mettdays.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "process.php"
     {
     "ProjRelPath" = "T"

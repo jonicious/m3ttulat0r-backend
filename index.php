@@ -1,11 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Jonah
- * Date: 10/10/2014
- * Time: 09:21
- */
-
+// Includes
+include 'modules/inc_mettdays.php';
 ?>
 
 <head>
@@ -15,24 +10,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
+
 <div id="header">
 <?php
-    try {
-        if($_GET['error'] == 1){
-            echo "<a>Missing Fields</a>";
-        }
-    }
-
-    catch(Exception $e){}
-    ?>
+if(!empty($_GET['error']) == 1){
+	echo "<a>Missing Fields</a>";
+}
+?>
 </div>
 <div id="content">
 <form action="process.php" method="post">
-    <p>User ID</p>
-    <input name="name" type="text" />
-    <p>Haelften</p>
-    <input name="haelften" type="number" />
+    <input name="name" type="text" placeholder="Username" />
+    <input name="haelften" type="number" placeholder="How many Halves?"	 />
     <input type="submit" value="submit" />
 </form>
+<hr>
+Days until Mettwoch: <b><?php echo daysUntilMettwoch() ?></b>
 </div>
 </body>
