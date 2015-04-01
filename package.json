@@ -1,0 +1,18 @@
+{
+  "name": "m3ttulat0r",
+  "version": "1.0.0",
+  "description": "A simple API Server written in Javascript to run with Node.JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonah Möller",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/snapsnapturtle/m3ttulat0r.git"
+  },
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
