@@ -2,11 +2,6 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 
-app.get('/', function (req, res) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('X-Powered-By', 'm3ttulat0r');
-    res.send('Hello World!');
-});
 var mettwoch = require('./mettwoch');
 module.exports = app;
 
