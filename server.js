@@ -1,9 +1,6 @@
-/**
- * Created by Jonah on 4/1/2015.
- */
-
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
 
 app.get('/', function (req, res) {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -25,6 +22,7 @@ app.get('/get/mettday', function (req, res) {
         case 6: output = 4; break;
         default: output = null; break;
     }
+app.use(bodyParser.json());
 
     var daysToMettwochJson = { };
     daysToMettwochJson.days = output;

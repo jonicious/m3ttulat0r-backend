@@ -13,6 +13,7 @@
     "url": "git://github.com/snapsnapturtle/m3ttulat0r.git"
   },
   "dependencies": {
-    "express": "^4.12.3"
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
   }
 }
