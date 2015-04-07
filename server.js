@@ -7,31 +7,14 @@ app.get('/', function (req, res) {
     res.setHeader('X-Powered-By', 'm3ttulat0r');
     res.send('Hello World!');
 });
+var mettwoch = require('./mettwoch');
+module.exports = app;
 
-app.get('/get/mettday', function (req, res) {
-    var dayOfWeek = new Date().getDay();
-    var output;
-
-    switch (dayOfWeek) {
-        case 0: output = 3; break;
-        case 1: output = 2; break;
-        case 2: output = 1; break;
-        case 3: output = 0; break;
-        case 4: output = 6; break;
-        case 5: output = 5; break;
-        case 6: output = 4; break;
-        default: output = null; break;
-    }
 app.use(bodyParser.json());
 var calcMett = require('./calcMett');
 
-    var daysToMettwochJson = { };
-    daysToMettwochJson.days = output;
 
-    var outputJson = JSON.stringify(daysToMettwochJson);
 
-    res.send(outputJson);
-});
 
 
 
