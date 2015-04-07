@@ -3,6 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 
 var mettwoch = require('./mettwoch');
+var participate = require('./participate');
 module.exports = app;
 
 app.use(bodyParser.json());
