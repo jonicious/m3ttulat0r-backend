@@ -23,6 +23,7 @@ app.get('/get/mettday', function (req, res) {
         default: output = null; break;
     }
 app.use(bodyParser.json());
+var calcMett = require('./calcMett');
 
     var daysToMettwochJson = { };
     daysToMettwochJson.days = output;
@@ -32,25 +33,9 @@ app.use(bodyParser.json());
     res.send(outputJson);
 });
 
-app.get('/calc/mett', function (req, res) {
 
-    var halvesCount = 8; // Amount of Halves
-    var mettAmount = 120; // Amount of Mett per Half
 
-    var mettJson = { };
 
-    mettJson.mett = { };
-    mettJson.mett.singleAmount = mettAmount;
-    mettJson.mett.totalAmount = halvesCount * mettAmount;
-    mettJson.mett.unit = 'g';
-
-    mettJson.halves = { };
-    mettJson.halves.count = halvesCount;
-
-    var outputJson = JSON.stringify(mettJson);
-
-    res.send(outputJson);
-});
 
 app.use(function(req, res, next) {
     res.status(404).send('Sorry cant find that!');
